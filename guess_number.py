@@ -3,7 +3,6 @@ number = random.randint(1,100)
 while True:
     answer = int(input('Введите число:'))
     if answer == number:
-        print('Вы правы!')
         break
     elif answer > number:
         print('Нужно <')
@@ -11,4 +10,5 @@ while True:
         print('Нужно >')
     elif answer == 101:
         break
-    
+
+print('Поздравляю вы угадали число!')   
